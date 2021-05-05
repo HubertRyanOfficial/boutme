@@ -1,0 +1,28 @@
+.buttonComponentContainer {
+  margin: 30px 0px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--blue-dark);
+
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.buttonComponentContainer:hover {
+  opacity: 0.8;
+}
+
+.buttonComponentPrimary {
+  background-color: var(--primary);
+}
+
+.buttonComponentPrimaryOutline {
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}

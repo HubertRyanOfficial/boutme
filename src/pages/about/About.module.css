@@ -1,0 +1,49 @@
+.aboutContainer {
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.aboutContainerMain {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutContainerMain > h1 {
+  font-size: 1.7rem;
+  color: var(--blue-dark);
+}
+
+.aboutContainerMain > h1 span {
+  color: var(--primary);
+}
+
+.aboutContainerMain p {
+  color: var(--blue-light);
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.aboutContainerMain > img {
+  width: 40px;
+  margin-top: 30px;
+}
+
+.aboutContainerMain > h2 {
+  font-size: 1rem;
+  margin-top: 30px;
+  color: var(--blue-dark);
+}
+
+.aboutOptions {
+  align-self: stretch;
+
+  display: flex;
+  justify-content: center;
+}
+
+#aboutSeparate {
+  margin: 0px 20px;
+}
